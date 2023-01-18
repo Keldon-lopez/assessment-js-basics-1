@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = "Is a version management tool used create snapshots of your code to backup and roll back any changes. It also tracks any changes made to your code. On top of that it also you to back up your code to repos on a separate service GitHub.";
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = "Is an online hosting service that contains repo used in conjunction with git to track changes to code while also making it available online. There are main services offered from bug tracking to wikis";
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+const gitInitDefinition = "git bash command to create a local git repo in selected folder";
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+const gitCloneDefinition = "Used to copy a repo from Github into the selected folder";
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = "checks which changed files are selected and if they are going to be added to the repo if committed";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,9 @@
 
 //CODE HERE
 
+const gitAddDefinition = "Adds files to be committed to your repo";
+const gitAddCode = "git add .";
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +78,8 @@
 
 //CODE HERE
 
+const gitCommitDefinition = "used to commit your added files to your local git repo";
+const gitCommitCode = `git commit -m "initial commit"`;
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +88,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = "Used to push your locally saved repo to the connected repo on Github";
