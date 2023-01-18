@@ -267,9 +267,19 @@ console.log("There are", pinkPounds, "pounds of Pink Apples.");
 
 // CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+// I first commented the prices here to make it easier to see the variable then times the pounds by the price to get the profit for each and logged them
+
+// const fujiPrice = 0.89;
+// const galaPrice = 0.64;
+// const pinkPrice = 0.55;
+
+let fujiProfit = fujiPounds * fujiPrice;
+let galaProfit = galaPounds * galaPrice;
+let pinkProfit = pinkPounds * pinkPrice;
+
+console.log("Total Fuji Apple Profit $",fujiProfit);
+console.log("Total Gala Apple Profit $",galaProfit);
+console.log("Total Pink Apple Profit $",pinkProfit);
 
 // PROBLEM 7
 
@@ -282,3 +292,6 @@ console.log("There are", pinkPounds, "pounds of Pink Apples.");
 */
 
 // CODE HERE
+// to get the total profit I just need to add all of them together
+let totalProfit = fujiProfit + galaProfit + pinkProfit;
+console.log("Total Profit of all Apples is $",totalProfit);
