@@ -27,15 +27,13 @@
     in cents. 
 */
 
-const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
-const galaAcres = [5, 2, 4, 3, 6, 2, 4]
-const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
+const fujiAcres = [2, 3, 3, 2, 2, 2, 1];
+const galaAcres = [5, 2, 4, 3, 6, 2, 4];
+const pinkAcres = [1, 5, 4, 2, 1, 5, 4];
 
-const fujiPrice = .89 
-const galaPrice = .64
-const pinkPrice = .55
-
-
+const fujiPrice = 0.89;
+const galaPrice = 0.64;
+const pinkPrice = 0.55;
 
 // PROBLEM 1
 
@@ -50,10 +48,35 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+// I am first going to define my variables for all the totals
+let totalAcres = 0;
+let fujiTotals = 0;
+let galaTotals = 0;
+let pinkTotals = 0;
 
+//I will first get the total for fujiAcres
+for (let index = 0; index < fujiAcres.length; index++) {
+  fujiTotals += fujiAcres[index];
+//   console.log(fujiTotals);
+}
 
+// I am now getting the total for picked for galaAcres
+for (let index = 0; index < galaAcres.length; index++) {
+    galaTotals += galaAcres[index];
+    // console.log(galaTotals);
+  }
 
+//   lastly getting the total for picked for pinkAcres
+for (let index = 0; index < pinkAcres.length; index++) {
+    pinkTotals += pinkAcres[index];
+    // console.log(pinkTotals);
+  }
 
+  // Now I add them all to totalAcres and log totalAcres
+totalAcres += fujiTotals;
+totalAcres += galaTotals;
+totalAcres += pinkTotals;
+console.log("Total number of acres picked",totalAcres);
 
 // PROBLEM 2
 
@@ -68,10 +91,6 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
-
-
 
 // PROBLEM 3
 
@@ -102,12 +121,10 @@ const pinkPrice = .55
 
 */
 
-let acresLeft = 174 
-let days = 0
+let acresLeft = 174;
+let days = 0;
 
 // CODE HERE
-
-
 
 // PROBLEM 4
 
@@ -139,11 +156,6 @@ let days = 0
 // let galaTons =
 // let pinkTons =
 
-
-
-
-
-
 // PROBLEM 5
 
 /*
@@ -160,16 +172,11 @@ let days = 0
     Hint: there are 2000 pounds in a ton.
 */
 
-// CODE HERE 
+// CODE HERE
 
 // let fujiPounds =
 // let galaPounds =
 // let pinkPounds =
-
-
-
-
-
 
 // PROBLEM 6
 
@@ -192,11 +199,6 @@ let days = 0
 // let fujiProfit =
 // let galaProfit =
 // let pinkProfit =
-
-
-
-
-
 
 // PROBLEM 7
 
