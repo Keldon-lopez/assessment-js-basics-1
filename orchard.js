@@ -188,13 +188,13 @@ for (let index = 0; index < fujiAcres.length; index++) {
 }
 console.log("Daily total in tons of Fuji Apples picked ", fujiTons);
 
-for (let index = 0; index < fujiAcres.length; index++) {
+for (let index = 0; index < galaAcres.length; index++) {
   galaTons.push(galaAcres[index] * 6.5);
   //   console.log(galaTons);
 }
 console.log("Daily total in tons of Gala Apples picked ", galaTons);
 
-for (let index = 0; index < fujiAcres.length; index++) {
+for (let index = 0; index < pinkAcres.length; index++) {
   pinkTons.push(pinkAcres[index] * 6.5);
   //   console.log(pinkTons);
 }
